@@ -1,0 +1,23 @@
+# Quick Scan Instructions (OpenVAS / Nessus)
+
+## OpenVAS (GVM) quick notes
+- On Kali, you can install Greenbone packages or use the GVM setup script.
+- Start the gvm services (commands vary by distro/setup). Then open the web UI (usually https://localhost:9392 or https://127.0.0.1:9392).
+- Create a target using your local IP (for example: 10.188.202.130).
+- Create a new Task > Select a scan config (Full and fast) > Run the task.
+- After completion, go to the report and export as PDF/HTML.
+
+## Nessus Essentials quick notes
+- Register for Nessus Essentials to receive an activation code from Tenable.
+- Install Nessus and activate with the code.
+- Open the Nessus UI (https://localhost:8834) and create a new scan -> Advanced Scan or Basic Network Scan.
+- Set target to your machine IP or localhost and launch.
+- Export the report when done.
+
+## Saving results
+- Save exported report to `reports/` (create that folder).
+- Save screenshots of the findings to `screenshots/`.
+
+## Troubleshooting
+- If scanner shows many false positives, cross-check with vendor advisories and CVE references.
+- Ensure scanner plugins/feeds are up-to-date before running a full scan.

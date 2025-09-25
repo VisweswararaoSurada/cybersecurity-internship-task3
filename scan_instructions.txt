@@ -1,4 +1,4 @@
-# Quick Scan Instructions (OpenVAS / Nessus)
+# Quick Scan Instructions (OpenVAS)
 
 ## OpenVAS (GVM) quick notes
 - On Kali, you can install Greenbone packages or use the GVM setup script.

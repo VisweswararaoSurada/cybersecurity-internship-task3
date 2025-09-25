@@ -9,7 +9,7 @@ Use a free vulnerability scanner to identify common vulnerabilities on your comp
 
 > Note: Installing and running these scanners may require admin/root access and can take 30–60 minutes for a full scan.
 
-## Steps I Followed (What you should do)
+## Steps I Followed 
 1. Install OpenVAS/GVM or register for Nessus Essentials and install it.
 2. Start the service and open the web UI (e.g., `https://localhost:9392` for Nessus, or GVM's web UI).
 3. Add a scan target: set it to your local IP (e.g., `10.188.202.130`) or `localhost`.

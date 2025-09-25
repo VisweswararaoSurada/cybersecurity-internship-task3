@@ -6,7 +6,6 @@ Use a free vulnerability scanner to identify common vulnerabilities on your comp
 
 ## Tools Suggested
 - **OpenVAS / Greenbone Vulnerability Manager (GVM)** (Community edition) — free
-- **Nessus Essentials** — free for personal use (requires registration)
 
 > Note: Installing and running these scanners may require admin/root access and can take 30–60 minutes for a full scan.
 
